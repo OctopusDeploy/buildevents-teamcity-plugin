@@ -9,6 +9,7 @@
     <bean class="com.octopus.teamcity.opentelemetry.server.ProjectConfigurationTab"/>
     <bean class="com.octopus.teamcity.opentelemetry.server.ProjectConfigurationSettingsController"/>
     <bean class="com.octopus.teamcity.opentelemetry.server.BuildOverviewExtensionController"/>
+    <bean class="com.octopus.teamcity.opentelemetry.server.BuildParameterPreProcessor"/>
     <bean class="com.octopus.teamcity.opentelemetry.server.helpers.HelperPerBuildOTELHelperFactory"/>
     <bean class="com.octopus.teamcity.opentelemetry.server.endpoints.OTELEndpointFactory"/>
     <bean class="com.octopus.teamcity.opentelemetry.server.BuildStorageManagerImpl"/>
